@@ -29,3 +29,17 @@ python fusionpdf.py
 ```
 python fusionpdf.py --folder=/path/to/folder --output=filename.pdf
 ```
+
+## ExcelClient
+
+Tool to find and retrieve data from an excel and print it in text files.
+
+```
+python excelclient.py
+```
+
+```
+python excelclient.py /path/to/excelfile
+```
+
+Then use the prompt menu.
