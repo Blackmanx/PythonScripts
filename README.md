@@ -34,12 +34,29 @@ python fusionpdf.py --folder=/path/to/folder --output=filename.pdf
 
 Tool to find and retrieve data from an excel and print it in text files.
 
+Usage:
+
 ```
 python excelclient.py
 ```
+
 
 ```
 python excelclient.py /path/to/excelfile
 ```
 
 Then use the prompt menu.
+
+## LineSplitter
+
+Script that asks for a text file, then splits all its lines into different files inside the selected file's folder.
+
+Usage:
+
+```
+python linesplitter.py
+```
+
+```
+python linesplitter.py /path/to/file
+```
