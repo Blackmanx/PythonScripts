@@ -40,7 +40,6 @@ Usage:
 python excelclient.py
 ```
 
-
 ```
 python excelclient.py /path/to/excelfile
 ```
@@ -59,4 +58,19 @@ python linesplitter.py
 
 ```
 python linesplitter.py /path/to/file
+```
+
+
+## PathGrepper
+
+Script that asks for a folder and a string to grep recursively inside that folder, including binaries.  It will print the paths where string is found in a file of your naming.
+
+Usage:
+
+```
+python pathgrepper.py
+```
+
+```
+python pathgrepper.py /path/to/folder <string>
 ```
