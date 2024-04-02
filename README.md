@@ -74,3 +74,18 @@ python pathgrepper.py
 ```
 python pathgrepper.py /path/to/folder <string>
 ```
+
+
+## StringCommonizer
+
+Script that asks for two text files and extracts common lines between them in a new file.
+
+Usage:
+
+```
+python stringcommonizer.py
+```
+
+```
+python stringcommonizer.py /path/to/file1 /path/to/file2
+```
